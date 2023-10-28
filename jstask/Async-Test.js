@@ -1,4 +1,4 @@
-const url = "https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty";
+const url = "https://goweather.herokuapp.com/weather/%7Bcity%7D";
 async function test() {
     try {
         const response = await fetch(url);
