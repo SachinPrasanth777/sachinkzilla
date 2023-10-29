@@ -1,4 +1,4 @@
-const url="https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e7a601bb0f2e8670c11fbbadb314547b";
+const url="https://api.openweathermap.org/data/2.5/weather?q=city&appid=e7a601bb0f2e8670c11fbbadb314547b";
 let f=fetch(url);
 f
 .then((response)=>{
