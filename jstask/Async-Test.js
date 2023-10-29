@@ -1,4 +1,4 @@
-const url = "https://goweather.herokuapp.com/weather/%7Bcity%7D";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e7a601bb0f2e8670c11fbbadb314547b";
 async function test() {
     try {
         const response = await fetch(url);
